@@ -1,0 +1,8 @@
+Git commands
+
+1)git init
+2) git remote add origin https://github.com/Atsyurt/tflite-needy-animal-detection
+3)git add .
+4)git remote set-url https://github.com/Atsyurt/NAMP-TFLite-needy-animal-detection.git
+4)git commit -m "first commit of Aybu graduation project NAMP/tflite-needy-animal-detection"
+6)git push -u origin master
