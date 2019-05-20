@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TensorFlow Lite Object Detection Android Demo
 ### Overview
 This is a camera app that continuously detects the objects (bounding boxes and classes) in the frames seen by your device's back camera,And if it detects a cat, dog or bird it open new android activity which 
@@ -33,3 +34,7 @@ Click the Run button (the green arrow) or select Run > Run 'android' from the to
 ### Additional Note
 Any question can be sent to this mail apatmaster@gmail.com
 
+=======
+# tflite-needy-animal-detection
+The android project  which  allows the animals in need to be notified to the system
+>>>>>>> f2cbc44dec863501f5e3d3dcbd8cd249677b5abf
