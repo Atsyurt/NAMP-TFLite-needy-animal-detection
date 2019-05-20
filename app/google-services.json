@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "349911905707",
+    "firebase_url": "https://jsrealtime-database.firebaseio.com",
+    "project_id": "jsrealtime-database",
+    "storage_bucket": "jsrealtime-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349911905707:android:9d9378b3caf83a3c",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349911905707-if98fd7iooc0egqloql3vi6v8mm8cj51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0XutRifloNgO-S2_0IpldjBSCCbJO_Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349911905707-if98fd7iooc0egqloql3vi6v8mm8cj51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

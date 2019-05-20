@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nampmenu"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fiwaretitle" />
+
+    <TextView
+        android:id="@+id/nam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Needy Animal Map"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/location_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Location:" />
+
+    <EditText
+        android:id="@+id/username_inp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter the username"
+        android:inputType="textPostalAddress"
+        android:text="ayhan" />
+
+    <TextView
+        android:id="@+id/detection_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose an animal" />
+
+    <Spinner
+        android:id="@+id/spinner_animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/submit_button" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fedback1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/wc_wirecloud"
+        android:visibility="visible" />
+
+</LinearLayout>
